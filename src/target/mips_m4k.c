@@ -208,7 +208,7 @@ static int mips_m4k_poll(struct target *target)
 		retval = mips_ejtag_drscan_32(ejtag_info, &ejtag_ctrl);
 		if (retval != ERROR_OK)
 			return retval;
-		LOG_DEBUG("Reset Detected");
+		//LOG_DEBUG("Reset Detected");
 	}
 
 	/* check for processor halted */
